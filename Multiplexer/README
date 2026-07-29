@@ -1,0 +1,60 @@
+# 4×1 Multiplexer (MUX)
+
+## Overview
+
+This project implements a **4×1 Multiplexer** in Verilog HDL using three different modeling styles:
+
+- Behavioral Modeling
+- Gate-Level Modeling
+- Structural Modeling
+
+---
+
+## Truth Table
+
+| S1 | S0 | Output |
+|----|----|--------|
+| 0  | 0  | a |
+| 0  | 1  | b |
+| 1  | 0  | c |
+| 1  | 1  | d |
+
+---
+
+## Project Files
+
+| File | Description |
+|------|-------------|
+| `Mux_4_Behav.v` | Behavioral implementation |
+| `Mux_4_GL.v` | Gate-Level implementation |
+| `Mux_2.v` | 2×1 Multiplexer used in Structural design |
+| `Mux_4_Structural.v` | Structural implementation |
+
+---
+
+## Vivado Elaborated Design
+
+### Behavioral
+
+![Behavioral](Behavioral_Elaborated.png)
+
+### Gate-Level
+
+![Gate Level](Gate_Level_Elaborated.png)
+
+### Structural
+
+![Structural](Structural_Elaborated.png)
+
+---
+
+## Tools
+
+- Verilog HDL
+- Xilinx Vivado
+
+---
+
+## Author
+
+Kholoud Eldimary
