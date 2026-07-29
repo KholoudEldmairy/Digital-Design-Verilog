@@ -1,0 +1,79 @@
+# 1-Bit Full Adder
+
+## Overview
+
+This project implements a **1-bit Full Adder** using four different Verilog HDL modeling styles:
+
+- Behavioral Modeling
+- Dataflow Modeling
+- Gate-Level Modeling
+- Structural Modeling
+
+The design was verified using simulation and visualized using **Xilinx Vivado Elaborated Design**.
+
+---
+
+## Truth Table
+
+| A | B | Cin | Sum | Cout |
+|:-:|:-:|:---:|:---:|:----:|
+| 0 | 0 |  0  |  0  |   0  |
+| 0 | 0 |  1  |  1  |   0  |
+| 0 | 1 |  0  |  1  |   0  |
+| 0 | 1 |  1  |  0  |   1  |
+| 1 | 0 |  0  |  1  |   0  |
+| 1 | 0 |  1  |  0  |   1  |
+| 1 | 1 |  0  |  0  |   1  |
+| 1 | 1 |  1  |  1  |   1  |
+
+---
+
+## Project Structure
+
+```
+Full_Adder/
+│
+├── FA_Behaviioral.v
+├── FA_Data_flow.v
+├── FA_Gate_Level.v
+├── HA.v
+├── FA_Structural.v
+│
+├── Behavioral_Elaborated.png
+├── Dataflow_Elaborated.png
+├── Gate_Level_Elaborated.png
+├── Structural_Elaborated.png
+│
+└── README.md
+```
+
+---
+
+
+
+---
+
+## Tools Used
+
+- Verilog HDL
+- Xilinx Vivado
+- Vivado Simulator
+
+---
+
+## Learning Objectives
+
+- Understand different Verilog HDL modeling styles.
+- Compare Behavioral, Dataflow, Gate-Level, and Structural implementations.
+- Verify combinational logic using simulation.
+- Visualize hardware implementation using Vivado Elaborated Design.
+
+---
+
+## Author
+
+**Kholoud Eldimary**
+
+Electronics and Communication Engineering Student
+
+Interested in Digital Design, RTL Design, FPGA, and ASIC Design.
